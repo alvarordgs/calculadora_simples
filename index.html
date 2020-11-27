@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="titulo">
+        <h1>Calculadora Simples</h1>
+    </div>
+    <section class="box-principal">
+        <div class="quadro-calc">
+            <input type="text" name="visor" id="visor">
+            <br>
+            <div class="box-botoes">
+                <input type="button" value="1" class="botoes" onclick="preencher(1)">
+                <input type="button" value="2" class="botoes" onclick="preencher(2)">
+                <input type="button" value="3" class="botoes" onclick="preencher(3)">
+                <input type="button" value="*" class="botoes" onclick="preencher('*')" style = "background-color: rgb(0, 9, 83);">
+                <br><br> 
+                <input type="button" value="4" class="botoes" onclick="preencher(4)">
+                <input type="button" value="5" class="botoes" onclick="preencher(5)">
+                <input type="button" value="6" class="botoes" onclick="preencher(6)">
+                <input type="button" value="/" class="botoes" onclick="preencher('/')" style = "background-color: rgb(0, 9, 83);">
+                <br><br>
+                <input type="button" value="7" class="botoes" onclick="preencher(7)">
+                <input type="button" value="8" class="botoes" onclick="preencher(8)">
+                <input type="button" value="9" class="botoes" onclick="preencher(9)">
+                <input type="button" value="-" class="botoes" onclick="preencher('-')" style = "background-color: rgb(0, 9, 83);">
+                <br><br>
+                <input type="button" value="0" class="botoes" onclick="preencher(0)">
+                <input type="button" value="C" class="botoes" style = "background-color: rgb(150, 0, 0);" onclick="limpar()">
+                <input type="button" value="=" class="botoes" onclick="calcular()" style = "background-color: rgb(0, 0, 0);">
+                <input type="button" value="+" class="botoes" onclick="preencher('+')" style = "background-color: rgb(0, 9, 83);">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="rodape">
+
+        </div>
+    </footer>
+    <script src="javascript.js"></script>
+</body>
+</html>

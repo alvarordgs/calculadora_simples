@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(14, 13, 13);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.titulo{
+    background-color: white;
+    width: 500px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.box-principal{
+    background-color: white;
+    width: 500px;
+    border-radius: 10px;
+    margin: 0 auto;
+    height: 400px;
+    padding: 5px;
+}
+
+#visor{
+    display: flex;
+    width: 260px;
+    border-radius: 5px;
+    margin: 0 auto;
+    height: 30px;
+}
+
+.quadro-calc{
+   margin-top: 25px;
+}
+
+.box-botoes{
+    margin: 0 auto;
+    width: 255px;
+}
+.botoes{
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    width: 60px;
+    height: 60px;
+}
